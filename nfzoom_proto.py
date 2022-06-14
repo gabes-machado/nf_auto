@@ -1,32 +1,20 @@
-import pyautogui as auto
-import pyperclip as pyclip
-import pandas as pd
+from selenium import webdriver
 import time
 
-auto.PAUSE = 1
+browser = webdriver.Chrome()
 
-auto.press('win')
-auto.write('chrome')
-auto.press('enter')
+# opening the browser and going to Agenci@Net:
+browser.get('https://www2.agencianet.fazenda.df.gov.br/')
+time.sleep(15)
 
-pyclip.copy('https://www2.agencianet.fazenda.df.gov.br/')
-auto.hotkey('ctrl','v')
-auto.press('enter')
-time.sleep(5)
-auto.press('enter')
+# clicking on 'Avançar'
+browser.find_element_by_xpath('/html/body/div[5]/div/div[2]/a').click()
+time.sleep(15)
 
-auto.click(x=1839, y=480)
-time.sleep(10)
-auto.click(x=153, y=274)
-auto.click(x=51, y=550)
-auto.click(x=1544, y=382)
-time.sleep(10)
+# navagating through the menus
+browser.find_element_by_xpath('//*[@id="boxMainMenu"]/ul/li[2]/a').click()
+browser.find_element_by_xpath('//*[@id="coluna1"]/ul/li[8]/a').click()
+browser.find_element_by_xpath('//*[@id="coluna2"]/ul/li[5]/span/a/span[1]').click()
+time.sleep(15)
 
-db = pd.read_excel('cnpjs.xlsx')
-
-display(db)
-# def auto_cnpj():
- #   cnpj = db['CNPJ'].values
- #   display(cnpj)
-
-# auto_cnpj()
+#browser.quit()
