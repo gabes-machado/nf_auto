@@ -20,7 +20,7 @@ To use the script it's very simple, but there is some pre-requisites. If you're 
 Instructions:
 
 To use this project, first you'll need Python and Git. It is pre-installed in Linux machines, but you'll need to install it on Windows;
-To download them, just click in the links bellow and follow their instructions.
+To download them, just click the links bellow and follow their instructions.
 
 [**Python**](https://www.python.org/)
 
