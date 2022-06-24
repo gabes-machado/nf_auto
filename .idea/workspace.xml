@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a4e62c3-e7e4-46f0-9fb1-7576210e0a6d" name="Changes" comment="new files update" />
+    <list default="true" id="4a4e62c3-e7e4-46f0-9fb1-7576210e0a6d" name="Changes" comment="base script finished | starting GUI and executable project">
+      <change beforePath="$PROJECT_DIR$/nfzoom_proto.py" beforeDir="false" afterPath="$PROJECT_DIR$/nfzoom_proto.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,21 +76,7 @@
       <option name="project" value="LOCAL" />
       <updated>1656033493177</updated>
     </task>
-    <task id="LOCAL-00002" summary="base script finished | starting GUI and executable project">
-      <created>1656036868065</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1656036868065</updated>
-    </task>
-    <task id="LOCAL-00003" summary="new files update">
-      <created>1656036883531</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1656036883531</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,7 +92,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base script finished | starting GUI and executable project" />
-    <MESSAGE value="new files update" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files update" />
+    <option name="LAST_COMMIT_MESSAGE" value="base script finished | starting GUI and executable project" />
   </component>
 </project>
